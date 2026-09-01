@@ -26,7 +26,7 @@ public class Ellipse extends Shape{
     }
 
     public void setMinorAxis(double minorAxis){//Setter for minor Axis
-        if(minorAxis > 0.0)//Check validation
+        if(minorAxis > 0.0 && minorAxis <= majorAxis)//Check validation
             this.minorAxis = minorAxis;
         else
             this.minorAxis = DEFAULT_minorAxis;

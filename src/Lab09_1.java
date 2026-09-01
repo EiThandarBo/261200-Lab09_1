@@ -13,6 +13,6 @@ public class Lab09_1 {
         System.out.println("\n---- Area Calculation with value ----");
         System.out.println("Area of Rectangle: " + AreaCalculator.calculateArea(new Rectangle(5, 6)));
         System.out.println("Area of Circle: " + AreaCalculator.calculateArea(new Circle(4)));
-        System.out.println("Area of Ellipse: " + AreaCalculator.calculateArea(new Ellipse(4, 3)));
+        System.out.println("Area of Ellipse: " + AreaCalculator.calculateArea(new Ellipse(4, 5)));
     }
 }
